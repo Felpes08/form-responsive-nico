@@ -34,7 +34,7 @@ html, body {
     min-width: 1200px;
     width: 100%;
     height: 557px;
-    background-image: url(/images/banner.jpg);
+    background-image: url('../images/banner.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -170,16 +170,29 @@ html, body {
 }
 .container-single{
     float: left;
-    width: 33.333%;
+    margin-right: -4px ;
+    width: 33.3%;
     padding: 30px;
 }
+
 
 .container-single p {
     padding: 10px 25px;
     text-align: justify;
+    display: inline-block;
 }
 
 .container-single img {
     width: 70px;
     height: 80px;
+}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    padding: 60px 0;
+    border-top: 4px solid #888888; 
+    text-align: center;
 }
